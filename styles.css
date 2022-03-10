@@ -245,7 +245,7 @@
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
-     margin: 0 32px;
+     margin: 0 auto;
      max-width: 800px;
      padding-bottom: 80px;
      width: 100%;
@@ -321,9 +321,6 @@
          -ms-grid-row: 3;
          grid-column: 1;
          grid-row: 3;
-    }
-     .audios-container {
-         margin: 0 auto;
     }
      .audios {
          margin: 0 auto;
