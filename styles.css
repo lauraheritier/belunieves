@@ -172,6 +172,10 @@
      padding: 10px 0 20px 0;
      position: relative;
 }
+li a {
+color: initial;
+ text-decoration: none;
+}
  li:not(:last-of-type):after {
      border-bottom: 1px solid #c4c0be;
      bottom: 0;
