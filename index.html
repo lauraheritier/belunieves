@@ -1,0 +1,112 @@
+<!doctype html lang="es">
+    <html>
+
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+            <meta name="description" content="Meet Belu Nieves, a talented radio announcer from Argentina.">
+            <link rel="stylesheet" href="styles.css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+                integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <script src="scripts.js"></script>
+            <title>Belén Nieves</title>
+        </head>
+
+        <body>
+
+            <!--First Section-->
+            <header>
+                <div id="first-block" class="container">
+                    <div class="main-header">
+                        <div class="colorful-bg"></div>belén nieves
+                    </div>
+                    <div class="subheader">
+                        <div class="colorful-bg"></div>locutora
+                    </div>
+                    <div class="wave"></div>
+                </div>
+            </header>
+
+            <main>
+
+                <!--Second Section-->
+                <article>
+                    <div id="second-block" class="container">
+                        <div class="container bio">
+                            <div class="bio-title">
+                                <span>BIO</span>
+                            </div>
+                        </div>
+                        <div class="main-bio-container">
+                            <div class="container personal-details">
+                                <div class="personal-details-item">
+                                    <div class="details-title">Formación</div>
+                                    <div class="description">Belu Nieves es Locutora Nacional egresada del <span>Colegio
+                                            Universitario de Periodismo Obispo Trejo y Sanabria</span> con matrícula expedida
+                                        por el ISER. <br />Es, además, Licenciada y Profesora en Comunicación Social egresada de
+                                        la Universidad Nacional de Córdoba.</div>
+                                </div>
+                                <div class="picture-container">
+                                    <figure>
+                                        <img src="belen_nieves.jpeg" alt="Belén Nieves - Locutora Nacional" />
+                                        <figcaption>Belu Nieves</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="personal-details-item">
+                                    <div class="details-title">Experiencia</div>
+                                    <ul>
+                                        <li>Conducción y operación del programa radial <i>Acá no duermo yo</i> en radio Dale.fm
+                                            93.1. De lunes a viernes de 14 a 17 hs. www.dale.fm</li>
+                                        <li>Conducción y producción del programa radial <i>Horizontes Magazine</i> en radio
+                                            comunitaria Nuevos Horizontes. 102.5. Magazine.</li>
+                                        <li>Coproducción y conducción del programa radial <i>La radio que nos mira</i>. 92.7 FM
+                                            Libre. Espacio galardonado por los premios <i>Difundir 2007</i>.</li>
+                                        <li>Locución de video institucional: Clínica de Ojos Córdoba Privada SRL.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="audios-container">
+                            <div class="audios audio1">
+                                <p class="demo-title">Demo en local</p>
+                                <div class="player-container">
+                                    <div class="is-paused player-audio-1 player">
+                                        <audio id="audio1" src="local.m4a" controls type="audio/mp4"></audio>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="audios audio2">
+                                <p class="demo-title">Demo en neutro</p>
+                                <div class="player-container">
+                                    <div class="is-paused player-audio-2 player">
+                                        <audio id="audio2" src="neutro.m4a" controls type="audio/mp4"></audio>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wave"></div>
+                    </div>
+                </article>
+
+                <!--Third Section: FORM-->
+                <article>
+                    <div class="ss-form-container" id="form-section">
+                        <div class="contact-title">Contacto</div>
+                        <div data-aidaform-widget="form-2019-12" data-url="https://lauraheritier.aidaform.com/contact-form"
+                            data-width="100%" data-height="500px" data-do-resize></div>
+                        <script>(function () { var r, d = document, gt = d.getElementById, cr = d.createElement, tg = d.getElementsByTagName, id = "aidaform-embed"; if (!gt.call(d, id)) { r = cr.call(d, "script"); r.id = id; r.src = "https://embed.aidaform.com/embed.js"; (d.head || tg.call(d, "head")[0]).appendChild(r); } })()</script>
+                        <div class="social-media-container">
+                            <a href="https://twitter.com/nievesbelen"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/belenieves"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </main>
+            <footer></footer>
+        </body>
+    </html>
